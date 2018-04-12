@@ -10,6 +10,7 @@ def generator():
     print(codes)
     print('lenth:', len(codes))
     output(codes)
+    return codes
 
 
 def output(data):
