@@ -9,6 +9,15 @@ def generator():
     codes = {''.join([random.choice(charset) for j in range(length)]) for i in range(200)}
     print(codes)
     print('lenth:', len(codes))
+    output(codes)
+
+
+def output(data):
+    count = 0
+    with open('result.txt', 'w') as f:
+        for item in data:
+            count += 1
+            f.write('No.%s %s \n' % (str(count).ljust(3), item))
 
 
 if __name__ == '__main__':
