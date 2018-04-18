@@ -1,0 +1,27 @@
+.title {
+    background-color: aqua;
+    height:2rem;
+    width: auto;
+    font-family: "Heiti SC";
+    font-size:2rem;
+}
+
+.content{
+    background-color: cornflowerblue;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    margin: 10rem;
+}
+
+.input_menu{
+    margin: 0 auto;
+    height:10rem;
+    width: 20rem;
+    background-color: yellow;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}

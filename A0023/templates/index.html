@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link href="{{ url_for('static', filename='index.css') }}" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+    <div class="title">欢迎来到测试网页</div>
+    <div class="content">
+        <div class="input_menu">
+            <form action="/login" method="post" id="user_login">
+                <div>
+                    <label name="lbl_user">用户名</label>
+                    <input type="text" name="user" placeholder="请输入用户名"/>
+                </div>
+                <div>
+                    <label name="lbl_pass">密码</label>
+                    <input type="password" name="password" placeholder="请输入密码"/>
+                </div>
+                <div>
+                    <input type="submit" name="login" value="登陆"/>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

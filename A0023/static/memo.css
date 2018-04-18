@@ -1,0 +1,20 @@
+.frame{
+    display:flex;
+    flex-direction: column;
+    align-items:stretch;
+    height: 100%;
+}
+.title{
+    background-color: cornflowerblue;
+    font-size: 32px;
+}
+
+.writebox{
+    background-color: lightblue;
+}
+
+.bottom{
+    background-color: cornflowerblue;
+    height: 32px;
+
+}
